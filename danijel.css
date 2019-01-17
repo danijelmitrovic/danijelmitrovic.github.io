@@ -56,6 +56,9 @@ a {
 	border-top-right-radius: 5px;
 	width: 70px;
 	height: 40px;
+	color: #fff;
+	opacity: 0.3;
+	text-align: center;
 }
 
 .skrol-strelica .dole-link {
@@ -64,6 +67,9 @@ a {
 	border-bottom-right-radius: 5px;
 	width: 70px;
 	height: 40px;
+	color: #fff;
+	opacity: 0.3;
+	text-align: center;
 }
 
 #glavni {
