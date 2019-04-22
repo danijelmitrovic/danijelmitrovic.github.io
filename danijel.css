@@ -1,6 +1,6 @@
 /*
  * CSS fajl za http://Danijel.net
- * verzija: 1.0
+ * verzija: 1.2
  * autor: Danijel Mitrovic
  */
 
@@ -144,11 +144,7 @@ a {
 	margin-right: 10px;
 }
 
-#mreza-facebook {
-	padding: 2px 15px;
-}
-
-#mreza-twitter {
+#mreza-linkedin {
 	padding: 2px 15px;
 }
 
