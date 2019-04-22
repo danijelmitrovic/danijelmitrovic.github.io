@@ -1,6 +1,6 @@
 /*
  * CSS fajl za http://Danijel.net
- * verzija: 1.2
+ * verzija: 1.3
  * autor: Danijel Mitrovic
  */
 
@@ -42,7 +42,7 @@ a {
 .skrol-strelica {
 	width: 70px;
 	height: 80px;
-	background: rgba(255,255,255,0.3);
+	background: rgba(255,255,255,0.1);
 	position: relative;
 	top: -40px;
 	left: 50%;
@@ -79,10 +79,10 @@ a {
 #ja {
 	width: 100%;
 	height: 100%;
-	background: -webkit-linear-gradient(23deg, #03a9f4, #40c4ff);
-	background: -o-linear-gradient(23deg, #03a9f4, #40c4ff);
-	background: -moz-linear-gradient(23deg, #03a9f4, #40c4ff);
-	background: linear-gradient(23deg, #03a9f4, #40c4ff);
+	background: -webkit-linear-gradient(23deg, #1c1029, #101010);
+	background: -o-linear-gradient(23deg, #1c1029, #101010);
+	background: -moz-linear-gradient(23deg, #1c1029, #101010);
+	background: linear-gradient(23deg, #1c1029, #101010);
 	color: #fff;
 }
 
@@ -103,10 +103,10 @@ a {
 #kontakt {
 	width: 100%;
 	height: 100%;
-	background: -webkit-linear-gradient(23deg, #673ab7, #7c4dff);
-	background: -o-linear-gradient(23deg, #673ab7, #7c4dff);
-	background: -moz-linear-gradient(23deg, #673ab7, #7c4dff);
-	background: linear-gradient(23deg, #673ab7, #7c4dff);
+	background: -webkit-linear-gradient(23deg, #2d2c2f, #2b243e);
+	background: -o-linear-gradient(23deg, #2d2c2f, #2b243e);
+	background: -moz-linear-gradient(23deg, #2d2c2f, #2b243e);
+	background: linear-gradient(23deg, #2d2c2f, #2b243e);
 	color: #fff;
 }
 
@@ -139,8 +139,8 @@ a {
 #kontakt .tabela .celija .mreza {
 	display: inline-block;
 	border-radius: 5px;
-	background: #fff;
-	color: #673ab7;
+	background: #0677A1;
+	color: #fff;
 	margin-right: 10px;
 }
 
