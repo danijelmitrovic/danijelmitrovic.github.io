@@ -1,6 +1,6 @@
 /*
  * CSS fajl za http://Danijel.net
- * verzija: 1.4
+ * verzija: 1.5
  * autor: Danijel Mitrovic
  */
 
@@ -42,7 +42,7 @@ a {
 .skrol-strelica {
 	width: 70px;
 	height: 80px;
-	background: rgba(255,255,255,0.1);
+	background: rgba(255,255,255,0.3);
 	position: relative;
 	top: -40px;
 	left: 50%;
@@ -57,7 +57,7 @@ a {
 	width: 70px;
 	height: 40px;
 	color: #fff;
-	opacity: 0.3;
+	opacity: 0.4;
 	text-align: center;
 }
 
@@ -67,8 +67,8 @@ a {
 	border-bottom-right-radius: 5px;
 	width: 70px;
 	height: 40px;
-	color: #fff;
-	opacity: 0.3;
+	color: #6e6e6e;
+	opacity: 0.5;
 	text-align: center;
 }
 
@@ -114,11 +114,11 @@ a {
 #kontakt {
 	width: 100%;
 	height: 100%;
-	background: -webkit-linear-gradient(23deg, #2d2c2f, #2b243e);
-	background: -o-linear-gradient(23deg, #2d2c2f, #2b243e);
-	background: -moz-linear-gradient(23deg, #2d2c2f, #2b243e);
-	background: linear-gradient(23deg, #2d2c2f, #2b243e);
-	color: #fff;
+	background: -webkit-linear-gradient(23deg, #ebcdaa, #badaff);
+	background: -o-linear-gradient(23deg, #ebcdaa, #badaff);
+	background: -moz-linear-gradient(23deg, #ebcdaa, #badaff);
+	background: linear-gradient(23deg, #ebcdaa, #badaff);
+	color: #6e6e6e;
 }
 
 #kontakt .tabela .celija h1 {
@@ -126,7 +126,7 @@ a {
 	font-size: 60px;
 	font-weight: 700;
 	padding-bottom: 10px;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #6e6e6e;
 }
 
 #kontakt .tabela .celija ul.mreze-grupa {
@@ -140,7 +140,7 @@ a {
 }
 
 #kontakt .tabela .celija ul.mreze-grupa li a {
-	color: #fff;
+	color: #6e6e6e;
 }
 
 #kontakt .tabela .celija ul.mreze-grupa li a:hover {
@@ -153,6 +153,7 @@ a {
 	background: #0677A1;
 	color: #fff;
 	margin-right: 10px;
+	box-shadow: 4px 4px 10px 0px #929292;
 }
 
 #mreza-linkedin {
