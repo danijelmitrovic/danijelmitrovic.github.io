@@ -1,6 +1,6 @@
 /*
  * CSS fajl za http://Danijel.net
- * verzija: 1.5
+ * verzija: 1.6
  * autor: Danijel Mitrovic
  */
 
@@ -92,7 +92,6 @@ a {
 	font-weight: 700;
 	margin: 15px 0;
 	padding-bottom: 10px;
-	border-bottom: 1px solid #fff;
 }
 
 #ja .tabela .celija h3 {
