@@ -1,5 +1,5 @@
 /*
- * CSS fajl za http://Danijel.net
+ * CSS fajl za https://Danijel.net
  * verzija: 1.8
  * autor: Danijel Mitrovic
  */
@@ -208,7 +208,7 @@ a {
  
 .konzola-kaVidljivosti {
 	animation-name: kaVidljivosti;
-	animation-duration: 0.5s;
+	animation-duration: 0.3s;
 	animation-timing-function: ease-out;
 }
  
@@ -224,7 +224,7 @@ a {
  
 .konzola-kaNevidljivosti {
 	animation-name: kaNevidljivosti;
-	animation-duration: 0.5s;
+	animation-duration: 0.3s;
 	animation-timing-function: ease-in;
 }
  
