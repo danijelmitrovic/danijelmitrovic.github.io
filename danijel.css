@@ -95,14 +95,14 @@ a {
 }
 
 #ja .tabela .celija h3 {
+	font-family: 'Courier New', monospace;
 	font-size: 20px;
 	font-weight: 400;
+	color: #6eff6e;
 	background-color: #000;
 	display: block;
 	width: fit-content;
 	margin: auto auto;
-	color: #6eff6e;
-	font-family: 'Courier New', monospace;
 	padding: 10px;
 	border-radius: 10px;
 	box-shadow: 5px 5px 15px #105500;
@@ -180,6 +180,10 @@ a {
 }
 
 #konzola {
+	font-family: 'Courier New', monospace;
+	font-size: 14px;
+	font-weight: 400;
+	color: #6eff6e;
 	position: fixed;
 	overflow: hidden;
 	top: 15%;
