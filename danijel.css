@@ -1,6 +1,6 @@
 /*
  * CSS fajl za http://Danijel.net
- * verzija: 1.7
+ * verzija: 1.8
  * autor: Danijel Mitrovic
  */
 
@@ -97,7 +97,6 @@ a {
 #ja .tabela .celija h3 {
 	font-size: 20px;
 	font-weight: 400;
-	padding-top: 10px;
 	background-color: #000;
 	display: block;
 	width: fit-content;
@@ -178,4 +177,48 @@ a {
 
 #mreza-eposta {
 	padding: 2px 8px;
+}
+
+#konzola {
+	position: fixed;
+	overflow: hidden;
+	top: 15%;
+	left: 15%;
+	background-color: #222;
+	border-radius: 5px;
+	box-shadow: 0 0 30px #000;
+	opacity: 0.97;
+	z-index: 100;
+}
+ 
+.konzola-vidljiva {
+	width: 70%;
+	height: 70%;
+}
+ 
+.konzola-kaVidljivosti {
+	animation-name: kaVidljivosti;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-out;
+}
+ 
+@keyframes kaVidljivosti {
+	from {height: 0%;}
+	to {height: 70%;}
+}
+ 
+.konzola-nevidljiva {
+	width: 70%;
+	height: 0%;
+}
+ 
+.konzola-kaNevidljivosti {
+	animation-name: kaNevidljivosti;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in;
+}
+ 
+@keyframes kaNevidljivosti {
+	from {height: 70%;}
+	to {height: 0%;}
 }
