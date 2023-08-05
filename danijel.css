@@ -194,6 +194,10 @@ a {
 	opacity: 0.97;
 	z-index: 100;
 }
+
+#konzola-sadrzaj {
+	padding: 7px;
+}
  
 .konzola-vidljiva {
 	width: 70%;
