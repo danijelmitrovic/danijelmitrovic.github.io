@@ -1,6 +1,6 @@
 /*
  * CSS fajl za http://Danijel.net
- * verzija: 1.6
+ * verzija: 1.7
  * autor: Danijel Mitrovic
  */
 
@@ -107,6 +107,12 @@ a {
 	padding: 10px;
 	border-radius: 10px;
 	box-shadow: 5px 5px 15px #105500;
+	cursor: pointer;
+}
+
+#ja .tabela .celija h3:active {
+	box-shadow: 2px 2px 15px #062200;
+	transform: translateX(3px) translateY(3px);
 }
 
 #donja-crta {
