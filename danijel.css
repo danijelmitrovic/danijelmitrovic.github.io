@@ -110,7 +110,7 @@ a {
 	cursor: pointer;
 }
 
-#ja .tabela .celija h3:active {
+#ja .tabela .celija h3:hover {
 	box-shadow: 2px 2px 15px #062200;
 	transform: translateX(3px) translateY(3px);
 }
