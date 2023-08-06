@@ -1,6 +1,6 @@
 /*
  * CSS fajl za https://Danijel.net
- * verzija: 1.8
+ * verzija: 1.9
  * autor: Danijel Mitrovic
  */
 
@@ -98,7 +98,7 @@ a {
 	font-size: 20px;
 	font-weight: 400;
 	color: #6eff6e;
-	background-color: #000;
+	background-color: #222;
 	display: block;
 	width: fit-content;
 	margin: auto auto;
@@ -228,4 +228,38 @@ a {
 @keyframes kaNevidljivosti {
 	from {height: 70%;}
 	to {height: 0%;}
+}
+
+#pomoc {
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 30px;
+	height: 30px;
+	float: right;
+	font-size: 24px;
+	cursor: default;
+	background-color: #fff0af;
+	color: #222;
+	text-align: center;
+	border-radius: 15px;
+}
+
+#pomoc-info {
+	display: inline-block;
+	position: relative;
+	right: 30px;
+	width: 150px;
+	float: right;
+	font-size: 10px;
+	background-color: #fff;
+	color: #222;
+	padding: 5px;
+	border-radius: 7px 0 7px 7px;
+	visibility: hidden;
+}
+
+#pomoc:hover #pomoc-info {
+	visibility: visible;
 }
