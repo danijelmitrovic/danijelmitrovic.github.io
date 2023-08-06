@@ -1,6 +1,6 @@
 /*
  * CSS fajl za https://Danijel.net
- * verzija: 1.10
+ * verzija: 1.11
  * autor: Danijel Mitrovic
  */
 
@@ -104,12 +104,12 @@ a {
 	margin: auto auto;
 	padding: 10px;
 	border-radius: 10px;
-	box-shadow: 5px 5px 15px #105500;
+	box-shadow: 5px 5px #70dc70;
 	cursor: pointer;
 }
 
 #ja .tabela .celija h2:hover {
-	box-shadow: 2px 2px 15px #062200;
+	box-shadow: 2px 2px #70dc70;
 	transform: translateX(3px) translateY(3px);
 }
 
@@ -164,10 +164,9 @@ a {
 #kontakt .tabela .celija .mreza {
 	display: inline-block;
 	border-radius: 5px;
-	background: #0677A1;
-	color: #fff;
+	color: #222;
 	margin-right: 10px;
-	box-shadow: 4px 4px 10px 0px #929292;
+	box-shadow: 4px 4px #777a00;
 }
 
 #mreza-linkedin {
@@ -263,7 +262,7 @@ a {
 
 .pomoc-ugasena {
 	animation-name: ugasiPomoc;
-	animation-duration: 7s;
+	animation-duration: 2s;
 	animation-timing-function: ease-out;
 	opacity: 0;
 }
