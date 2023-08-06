@@ -1,6 +1,6 @@
 /*
  * CSS fajl za https://Danijel.net
- * verzija: 1.9
+ * verzija: 1.10
  * autor: Danijel Mitrovic
  */
 
@@ -244,6 +244,7 @@ a {
 	color: #222;
 	text-align: center;
 	border-radius: 15px;
+	box-shadow: 3px 3px #222;
 }
 
 #pomoc-info {
@@ -257,9 +258,17 @@ a {
 	color: #222;
 	padding: 5px;
 	border-radius: 7px 0 7px 7px;
-	visibility: hidden;
+	box-shadow: 3px 3px #222;
 }
 
-#pomoc:hover #pomoc-info {
-	visibility: visible;
+.pomoc-ugasena {
+	animation-name: ugasiPomoc;
+	animation-duration: 7s;
+	animation-timing-function: ease-out;
+	opacity: 0;
+}
+
+@keyframes ugasiPomoc {
+	from {opacity: 1;}
+	to {opacity: 0;}
 }
