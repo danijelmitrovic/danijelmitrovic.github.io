@@ -1,6 +1,6 @@
 /*
  * CSS fajl za https://Danijel.net
- * verzija: 1.11
+ * verzija: 1.12
  * autor: Danijel Mitrovic
  */
 
@@ -29,12 +29,26 @@ a {
 
 .tabela {
 	display: table;
-	width: 100%;
-	height: 100%;
+}
+
+.red {
+	display: table-row;
+}
+
+.kolona {
+	display: table-column;
 }
 
 .celija {
 	display: table-cell;
+}
+
+.procenat100wh {
+	width: 100%;
+	height: 100%;
+}
+
+.centrirano {
 	text-align: center;
 	vertical-align: middle;
 }
@@ -49,13 +63,11 @@ a {
 }
 
 .skrol-strelica .gore-link {
-	display: block;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	width: 70px;
 	height: 40px;
 	color: #222;
-	text-align: center;
 	text-shadow: 2px 2px #f7ff00;
 }
 
@@ -64,13 +76,11 @@ a {
 }
 
 .skrol-strelica .dole-link {
-	display: block;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 	width: 70px;
 	height: 40px;
 	color: #222;
-	text-align: center;
 	text-shadow: 2px 2px #fff;
 }
 
@@ -82,6 +92,7 @@ a {
 	width: 100%;
 	height: 100%;
 }
+
 #ja {
 	width: 100%;
 	height: 100%;
@@ -269,7 +280,7 @@ a {
 
 .pomoc-ugasena {
 	animation-name: ugasiPomoc;
-	animation-duration: 2s;
+	animation-duration: 1s;
 	animation-timing-function: ease-out;
 	opacity: 0;
 }
