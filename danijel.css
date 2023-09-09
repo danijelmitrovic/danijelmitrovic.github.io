@@ -182,7 +182,8 @@ a {
 #kontakt .tabela .celija .mreza {
 	display: inline-block;
 	border-radius: 5px;
-	color: #eeeeee;
+	background-color: #eeeeee;
+	color: #222;
 	margin-right: 15px;
 	box-shadow: 4px 4px #777a00;
 }
