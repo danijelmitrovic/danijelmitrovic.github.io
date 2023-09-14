@@ -12,37 +12,23 @@ const pomoc = document.getElementById("pomoc");
 const pomocTekst = document.getElementById("pomoc-tekst");
 
 ja.addEventListener("click", function(event) {
-	zatvoriKonzolu();
+	toggleKonzolu();
 	event.stopPropagation();
 });
 
 kontakt.addEventListener("click", function(event) {
-	zatvoriKonzolu();
+	toggleKonzolu();
 	event.stopPropagation();
 });
 
 dugmeKonzole.addEventListener("click", function(event) {
-	otvoriKonzolu();
+	toggleKonzolu();
 	ugasiPomoc();
 	event.stopPropagation();
 });
 
-const otvoriKonzolu = function() {
-	if (konzola.classList.contains("konzola-nevidljiva")) {
-		konzola.classList.remove("konzola-kaNevidljivosti");
-		konzola.classList.remove("konzola-nevidljiva");
-		konzola.classList.add("konzola-kaVidljivosti");
-		konzola.classList.add("konzola-vidljiva");
-	}
-}
-
-const zatvoriKonzolu = function() {
-	if (konzola.classList.contains("konzola-vidljiva")) {
-		konzola.classList.remove("konzola-kaVidljivosti");
-		konzola.classList.remove("konzola-vidljiva");
-		konzola.classList.add("konzola-kaNevidljivosti");
-		konzola.classList.add("konzola-nevidljiva");
-	}
+const toggleKonzolu = function() {
+	konzola.classList.toggle("konzola-vidljiva");
 }
 
 const ugasiPomoc = function() {

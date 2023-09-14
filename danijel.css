@@ -208,44 +208,25 @@ a {
 	background-color: #222;
 	border-radius: 5px;
 	box-shadow: 0 0 30px #000;
+	width: 70%;
+	height: 70%;
+	transition: all 0.2s;
+}
+
+.konzola {
+	opacity: 0;
+	z-index: -1;
+	transform: translateY(50%);
+}
+
+.konzola-vidljiva {
 	opacity: 0.97;
 	z-index: 100;
+	transform: translateY(0%);
 }
 
 #konzola-sadrzaj {
 	padding: 7px;
-}
- 
-.konzola-vidljiva {
-	width: 70%;
-	height: 70%;
-}
- 
-.konzola-kaVidljivosti {
-	animation-name: kaVidljivosti;
-	animation-duration: 0.3s;
-	animation-timing-function: ease-out;
-}
- 
-@keyframes kaVidljivosti {
-	from {height: 0%;}
-	to {height: 70%;}
-}
- 
-.konzola-nevidljiva {
-	width: 70%;
-	height: 0%;
-}
- 
-.konzola-kaNevidljivosti {
-	animation-name: kaNevidljivosti;
-	animation-duration: 0.3s;
-	animation-timing-function: ease-in;
-}
- 
-@keyframes kaNevidljivosti {
-	from {height: 70%;}
-	to {height: 0%;}
 }
 
 #pomoc {
