@@ -4,6 +4,7 @@
  * autor: Danijel Mitrovic
  */
 
+const podloga = document.getElementById("podloga");
 const konzola = document.getElementById("konzola");
 const ja = document.getElementById("ja");
 const kontakt = document.getElementById("kontakt");
@@ -11,17 +12,24 @@ const dugmeKonzole = document.getElementById("dugme-konzole");
 const pomoc = document.getElementById("pomoc");
 const pomocTekst = document.getElementById("pomoc-tekst");
 
-ja.addEventListener("click", function(event) {
+podloga.addEventListener("click", function(event) {
+	ukloniPodlogu();
 	zatvoriKonzolu();
 	event.stopPropagation();
 });
 
-kontakt.addEventListener("click", function(event) {
-	zatvoriKonzolu();
-	event.stopPropagation();
-});
+// ja.addEventListener("click", function(event) {
+// 	zatvoriKonzolu();
+// 	event.stopPropagation();
+// });
+
+// kontakt.addEventListener("click", function(event) {
+// 	zatvoriKonzolu();
+// 	event.stopPropagation();
+// });
 
 dugmeKonzole.addEventListener("click", function(event) {
+	prikaziPodlogu();
 	otvoriKonzolu();
 	ugasiPomoc();
 	event.stopPropagation();
@@ -33,6 +41,14 @@ const otvoriKonzolu = function() {
 
 const zatvoriKonzolu = function() {
 	konzola.classList.remove("konzola-vidljiva");
+}
+
+const prikaziPodlogu = function() {
+	podloga.classList.add("podloga-vidljiva");
+}
+
+const ukloniPodlogu = function() {
+	podloga.classList.remove("podloga-vidljiva");
 }
 
 const ugasiPomoc = function() {
