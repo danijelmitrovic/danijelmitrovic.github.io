@@ -12,23 +12,27 @@ const pomoc = document.getElementById("pomoc");
 const pomocTekst = document.getElementById("pomoc-tekst");
 
 ja.addEventListener("click", function(event) {
-	toggleKonzolu();
+	zatvoriKonzolu();
 	event.stopPropagation();
 });
 
 kontakt.addEventListener("click", function(event) {
-	toggleKonzolu();
+	zatvoriKonzolu();
 	event.stopPropagation();
 });
 
 dugmeKonzole.addEventListener("click", function(event) {
-	toggleKonzolu();
+	otvoriKonzolu();
 	ugasiPomoc();
 	event.stopPropagation();
 });
 
-const toggleKonzolu = function() {
-	konzola.classList.toggle("konzola-vidljiva");
+const otvoriKonzolu = function() {
+	konzola.classList.add("konzola-vidljiva");
+}
+
+const zatvoriKonzolu = function() {
+	konzola.classList.remove("konzola-vidljiva");
 }
 
 const ugasiPomoc = function() {
