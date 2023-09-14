@@ -8,6 +8,7 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
+	box-sizing: border-box;
 }
 
 .clearfix:after {
@@ -223,6 +224,17 @@ a {
 	opacity: 0.97;
 	z-index: 100;
 	transform: translateY(0%);
+}
+
+#konzola-topbar {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	width: 100%;
+	padding: 7px;
 }
 
 #konzola-sadrzaj {
