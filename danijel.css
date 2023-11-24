@@ -21,7 +21,7 @@ html, body {
 
 body {
 	font-family: Verdana, sans-serif;
-	font-size: 24px;
+	font-size: 16px;
 }
 
 a {
@@ -44,7 +44,7 @@ a {
 	display: table-cell;
 }
 
-.procenat100wh {
+.wh100p {
 	width: 100%;
 	height: 100%;
 }
@@ -55,21 +55,22 @@ a {
 }
 
 .skrol-strelica {
-	width: 70px;
-	height: 80px;
+	width: 4rem;
+	height: 5rem;
 	position: relative;
-	top: -40px;
+	top: -2.5rem;
 	left: 50%;
-	margin-left: -35px;
+	margin-left: -2rem;
 }
 
 .skrol-strelica .gore-link {
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	width: 70px;
-	height: 40px;
+	border-top-left-radius: 0.7rem;
+	border-top-right-radius: 0.7rem;
+	width: 4rem;
+	height: 2.5rem;
 	color: #222;
-	text-shadow: 2px 2px #feffe5;
+	text-shadow: 0.1rem 0.1rem #feffe5;
+	transition: all 0.3s;
 }
 
 .skrol-strelica .gore-link:hover {
@@ -77,12 +78,13 @@ a {
 }
 
 .skrol-strelica .dole-link {
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	width: 70px;
-	height: 40px;
+	border-bottom-left-radius: 0.7rem;
+	border-bottom-right-radius: 0.7rem;
+	width: 4rem;
+	height: 2.5rem;
 	color: #222;
-	text-shadow: 2px 2px #fff;
+	text-shadow: 0.1rem 0.1rem #fff;
+	transition: all 0.3s;
 }
 
 .skrol-strelica .dole-link:hover {
@@ -93,7 +95,8 @@ a {
 	width: 100%;
 	height: 100%;
 	position: fixed;
-	background: linear-gradient(23deg, #685e86, #09475c);
+	background-color: #000;
+	opacity: 60%;
 }
 
 .podloga {
@@ -113,36 +116,37 @@ a {
 #ja {
 	width: 100%;
 	height: 100%;
-	background-color: #f6f8fc;
+	background: linear-gradient(180deg, #d9dee9, #fff);
 	color: #222;
 }
 
 #ja .tabela .celija h1 {
 	display: inline-block;
-	font-size: 60px;
+	font-size: 3.5rem;
 	font-weight: 700;
-	margin: 15px 0;
-	padding-bottom: 10px;
+	margin: 1rem 0;
+	padding-bottom: 0.3rem;
 }
 
 #ja .tabela .celija h2 {
 	font-family: 'Courier New', monospace;
-	font-size: 20px;
+	font-size: 1.2rem;
 	font-weight: 400;
 	color: #222;
 	background-color: #feffe5;
 	display: block;
 	width: fit-content;
 	margin: auto auto;
-	padding: 10px;
-	border-radius: 10px;
-	box-shadow: 5px 5px #feb600;
+	padding: 0.7rem;
+	border-radius: 0.7rem;
+	box-shadow: 0.3rem 0.3rem #dd6700;
 	cursor: pointer;
+	transition: all 0.2s;
 }
 
 #ja .tabela .celija h2:hover {
-	box-shadow: 2px 2px #70dc70;
-	transform: translateX(3px) translateY(3px);
+	box-shadow: 0.1rem 0.1rem #70dc70;
+	transform: translateX(0.2rem) translateY(0.2rem);
 }
 
 #donja-crta {
@@ -159,27 +163,27 @@ a {
 #kontakt {
 	width: 100%;
 	height: 100%;
-	background-color: #e2e2e2;
+	background-color: #f2f2f2;
 	color: #222;
 }
 
 #kontakt .tabela .celija h1 {
 	display: inline-block;
-	font-size: 60px;
+	font-size: 3.5rem;
 	font-weight: 700;
-	padding-bottom: 10px;
+	padding-bottom: 0.3rem;
 	color: #222;
 	border-bottom: 1px solid #6e6e6e;
 }
 
 #kontakt .tabela .celija ul.mreze-grupa {
-	margin-top: 10px;
+	margin-top: 0.3rem;
 	list-style-type: none;
 }
 
 #kontakt .tabela .celija ul.mreze-grupa li {
 	display: inline-block;
-	margin: 5px;
+	margin: 0.3rem;
 }
 
 #kontakt .tabela .celija ul.mreze-grupa li a {
@@ -192,24 +196,24 @@ a {
 
 #kontakt .tabela .celija .mreza {
 	display: inline-block;
-	border-radius: 5px;
+	border-radius: 0.3rem;
 	background-color: #eeeeee;
 	color: #222;
-	margin-right: 15px;
-	box-shadow: 4px 4px #777a00;
+	margin-right: 1rem;
+	box-shadow: 0.2rem 0.2rem #777a00;
 }
 
 #mreza-linkedin {
-	padding: 2px 7px;
+	padding: 0.2rem 0.35rem;
 }
 
 #mreza-eposta {
-	padding: 2px 5px;
+	padding: 0.2rem 0.3rem;
 }
 
 #konzola {
 	font-family: 'Courier New', monospace;
-	font-size: 14px;
+	font-size: 0.8rem;
 	font-weight: 400;
 	color: #6eff6e;
 	position: fixed;
@@ -217,8 +221,8 @@ a {
 	top: 15%;
 	left: 15%;
 	background-color: #222;
-	border-radius: 7px;
-	box-shadow: 0 0 30px #000;
+	border-radius: 0.4rem;
+	box-shadow: 0 0 2rem #000;
 	width: 70%;
 	height: 70%;
 	transition: all 0.2s;
@@ -238,49 +242,49 @@ a {
 
 #konzola-topbar {
 	font-family: Arial, sans-serif;
-	font-size: 16px;
+	font-size: 1rem;
 	font-weight: bold;
 	text-align: center;
 	background-color: #000;
 	color: #fff;
 	width: 100%;
-	padding: 7px;
+	padding: 0.4rem;
 }
 
 #konzola-sadrzaj {
-	padding: 7px;
+	padding: 0.89rem;
 }
 
 #pomoc {
-	display: inline-block;
+	display: block;
 	position: absolute;
-	top: 20px;
-	right: 20px;
-	width: 30px;
-	height: 30px;
 	float: right;
-	font-size: 24px;
+	top: 1.5rem;
+	right: 1.5rem;
+	width: 2rem;
+	height: 2rem;
+	font-size: 1.5rem;
 	cursor: default;
-	background-color: #fff0af;
+	background-color: #fff;
 	color: #222;
 	text-align: center;
-	border-radius: 15px;
-	box-shadow: 3px 3px #222;
+	border-radius: 1rem;
+	box-shadow: 0.2rem 0.2rem #222;
 	transition: opacity 1s;
 }
 
 #pomoc-tekst {
-	display: inline-block;
+	display: block;
 	position: relative;
-	right: 30px;
-	width: 150px;
 	float: right;
-	font-size: 10px;
+	right: 2rem;
+	width: 9.5rem;
+	font-size: 0.6rem;
 	background-color: #fff;
 	color: #222;
-	padding: 5px;
-	border-radius: 7px 0 7px 7px;
-	box-shadow: 3px 3px #222;
+	padding: 0.3rem;
+	border-radius: 0.35rem 0 0.35rem 0.35rem;
+	box-shadow: 0.2rem 0.2rem #222;
 	transition: opacity 1s;
 }
 
