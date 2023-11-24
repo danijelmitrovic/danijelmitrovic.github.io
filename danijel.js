@@ -1,7 +1,7 @@
-/*
- * JS fajl za https://Danijel.net
- * verzija: 1.3
- * autor: Danijel Mitrovic
+/**
+ * https://www.danijel.net
+ * @version 1.3
+ * @author Danijel Mitrovic <mitrovic(@)danijel.net>
  */
 
 const podloga = document.getElementById("podloga");
